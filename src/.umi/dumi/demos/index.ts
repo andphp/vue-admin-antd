@@ -3,9 +3,9 @@ import React from 'react';
 import { dynamic } from 'dumi';
 
 export default {
-  'vue-admin-antd-components': {
+  'test-antd-components': {
     component: function DumiDemo() {
-  var _interopRequireDefault = require("/Users/daxiong/Desktop/localhost/web-vue/vue-admin-antd/node_modules/@babel/runtime/helpers/interopRequireDefault");
+  var _interopRequireDefault = require("D:/vue/test-antd/node_modules/@babel/runtime/helpers/interopRequireDefault");
 
   var _react = _interopRequireDefault(require("react"));
 
@@ -17,11 +17,11 @@ export default {
 
   return _react["default"].createElement(_default);
 },
-    previewerProps: {"sources":{"_":{"tsx":"import React from 'react';\nimport Footer from '@/components/Footer';\n\nexport default () => <Footer />;"}},"dependencies":{"react":{"version":"17.0.1"}},"background":"#f0f2f5","identifier":"vue-admin-antd-components"},
+    previewerProps: {"sources":{"_":{"tsx":"import React from 'react';\nimport Footer from '@/components/Footer';\n\nexport default () => <Footer />;"}},"dependencies":{"react":{"version":"17.0.1"}},"background":"#f0f2f5","identifier":"test-antd-components"},
   },
-  'vue-admin-antd-components-1': {
+  'test-antd-components-1': {
     component: function DumiDemo() {
-  var _interopRequireDefault = require("/Users/daxiong/Desktop/localhost/web-vue/vue-admin-antd/node_modules/@babel/runtime/helpers/interopRequireDefault");
+  var _interopRequireDefault = require("D:/vue/test-antd/node_modules/@babel/runtime/helpers/interopRequireDefault");
 
   var _antd = require("antd");
 
@@ -47,11 +47,11 @@ export default {
 
   return _react["default"].createElement(_default);
 },
-    previewerProps: {"sources":{"_":{"tsx":"import { Button, Menu } from 'antd';\nimport React from 'react';\nimport HeaderDropdown from '@/components/HeaderDropdown';\n\nexport default () => {\n  const menuHeaderDropdown = (\n    <Menu selectedKeys={[]}>\n      <Menu.Item key=\"center\">个人中心</Menu.Item>\n      <Menu.Item key=\"settings\">个人设置</Menu.Item>\n      <Menu.Divider />\n      <Menu.Item key=\"logout\">退出登录</Menu.Item>\n    </Menu>\n  );\n  return (\n    <HeaderDropdown overlay={menuHeaderDropdown}>\n      <Button>hover 展示菜单</Button>\n    </HeaderDropdown>\n  );\n};"}},"dependencies":{"antd":{"version":"4.9.3","css":"antd/dist/antd.css"},"react":{"version":">=16.9.0"},"react-dom":{"version":">=16.9.0"}},"background":"#f0f2f5","identifier":"vue-admin-antd-components-1"},
+    previewerProps: {"sources":{"_":{"tsx":"import { Button, Menu } from 'antd';\nimport React from 'react';\nimport HeaderDropdown from '@/components/HeaderDropdown';\n\nexport default () => {\n  const menuHeaderDropdown = (\n    <Menu selectedKeys={[]}>\n      <Menu.Item key=\"center\">个人中心</Menu.Item>\n      <Menu.Item key=\"settings\">个人设置</Menu.Item>\n      <Menu.Divider />\n      <Menu.Item key=\"logout\">退出登录</Menu.Item>\n    </Menu>\n  );\n  return (\n    <HeaderDropdown overlay={menuHeaderDropdown}>\n      <Button>hover 展示菜单</Button>\n    </HeaderDropdown>\n  );\n};"}},"dependencies":{"antd":{"version":"4.9.3","css":"antd/dist/antd.css"},"react":{"version":">=16.9.0"},"react-dom":{"version":">=16.9.0"}},"background":"#f0f2f5","identifier":"test-antd-components-1"},
   },
-  'vue-admin-antd-components-2': {
+  'test-antd-components-2': {
     component: function DumiDemo() {
-  var _interopRequireDefault = require("/Users/daxiong/Desktop/localhost/web-vue/vue-admin-antd/node_modules/@babel/runtime/helpers/interopRequireDefault");
+  var _interopRequireDefault = require("D:/vue/test-antd/node_modules/@babel/runtime/helpers/interopRequireDefault");
 
   var _react = _interopRequireDefault(require("react"));
 
@@ -82,11 +82,11 @@ export default {
 
   return _react["default"].createElement(_default);
 },
-    previewerProps: {"sources":{"_":{"tsx":"import { Button, Menu } from 'antd';\nimport React from 'react';\nimport HeaderSearch from '@/components/HeaderSearch';\n\nexport default () => {\n  return (\n    <HeaderSearch\n      placeholder=\"站内搜索\"\n      defaultValue=\"umi ui\"\n      options={[\n        { label: 'Ant Design Pro', value: 'Ant Design Pro' },\n        {\n          label: 'Ant Design',\n          value: 'Ant Design',\n        },\n        {\n          label: 'Pro Table',\n          value: 'Pro Table',\n        },\n        {\n          label: 'Pro Layout',\n          value: 'Pro Layout',\n        },\n      ]}\n      onSearch={(value) => {\n        console.log('input', value);\n      }}\n    />\n  );\n};"}},"dependencies":{"react":{"version":"17.0.1"}},"background":"#f0f2f5","identifier":"vue-admin-antd-components-2"},
+    previewerProps: {"sources":{"_":{"tsx":"import { Button, Menu } from 'antd';\nimport React from 'react';\nimport HeaderSearch from '@/components/HeaderSearch';\n\nexport default () => {\n  return (\n    <HeaderSearch\n      placeholder=\"站内搜索\"\n      defaultValue=\"umi ui\"\n      options={[\n        { label: 'Ant Design Pro', value: 'Ant Design Pro' },\n        {\n          label: 'Ant Design',\n          value: 'Ant Design',\n        },\n        {\n          label: 'Pro Table',\n          value: 'Pro Table',\n        },\n        {\n          label: 'Pro Layout',\n          value: 'Pro Layout',\n        },\n      ]}\n      onSearch={(value) => {\n        console.log('input', value);\n      }}\n    />\n  );\n};"}},"dependencies":{"react":{"version":"17.0.1"}},"background":"#f0f2f5","identifier":"test-antd-components-2"},
   },
-  'vue-admin-antd-components-3': {
+  'test-antd-components-3': {
     component: function DumiDemo() {
-  var _interopRequireDefault = require("/Users/daxiong/Desktop/localhost/web-vue/vue-admin-antd/node_modules/@babel/runtime/helpers/interopRequireDefault");
+  var _interopRequireDefault = require("D:/vue/test-antd/node_modules/@babel/runtime/helpers/interopRequireDefault");
 
   var _antd = require("antd");
 
@@ -149,6 +149,6 @@ export default {
 
   return _react["default"].createElement(_default);
 },
-    previewerProps: {"sources":{"_":{"tsx":"import { message } from 'antd';\nimport React from 'react';\nimport NoticeIcon from '@/components/NoticeIcon/NoticeIcon';\n\nexport default () => {\n  const list = [\n    {\n      id: '000000001',\n      avatar: 'https://gw.alipayobjects.com/zos/rmsportal/ThXAXghbEsBCCSDihZxY.png',\n      title: '你收到了 14 份新周报',\n      datetime: '2017-08-09',\n      type: 'notification',\n    },\n    {\n      id: '000000002',\n      avatar: 'https://gw.alipayobjects.com/zos/rmsportal/OKJXDXrmkNshAMvwtvhu.png',\n      title: '你推荐的 曲妮妮 已通过第三轮面试',\n      datetime: '2017-08-08',\n      type: 'notification',\n    },\n  ];\n  return (\n    <NoticeIcon\n      count={10}\n      onItemClick={(item) => {\n        message.info(`${item.title} 被点击了`);\n      }}\n      onClear={(title: string, key: string) => message.info('点击了清空更多')}\n      loading={false}\n      clearText=\"清空\"\n      viewMoreText=\"查看更多\"\n      onViewMore={() => message.info('点击了查看更多')}\n      clearClose\n    >\n      <NoticeIcon.Tab\n        tabKey=\"notification\"\n        count={2}\n        list={list}\n        title=\"通知\"\n        emptyText=\"你已查看所有通知\"\n        showViewMore\n      />\n      <NoticeIcon.Tab\n        tabKey=\"message\"\n        count={2}\n        list={list}\n        title=\"消息\"\n        emptyText=\"您已读完所有消息\"\n        showViewMore\n      />\n      <NoticeIcon.Tab\n        tabKey=\"event\"\n        title=\"待办\"\n        emptyText=\"你已完成所有待办\"\n        count={2}\n        list={list}\n        showViewMore\n      />\n    </NoticeIcon>\n  );\n};"}},"dependencies":{"antd":{"version":"4.9.3","css":"antd/dist/antd.css"},"react":{"version":">=16.9.0"},"react-dom":{"version":">=16.9.0"}},"background":"#f0f2f5","identifier":"vue-admin-antd-components-3"},
+    previewerProps: {"sources":{"_":{"tsx":"import { message } from 'antd';\nimport React from 'react';\nimport NoticeIcon from '@/components/NoticeIcon/NoticeIcon';\n\nexport default () => {\n  const list = [\n    {\n      id: '000000001',\n      avatar: 'https://gw.alipayobjects.com/zos/rmsportal/ThXAXghbEsBCCSDihZxY.png',\n      title: '你收到了 14 份新周报',\n      datetime: '2017-08-09',\n      type: 'notification',\n    },\n    {\n      id: '000000002',\n      avatar: 'https://gw.alipayobjects.com/zos/rmsportal/OKJXDXrmkNshAMvwtvhu.png',\n      title: '你推荐的 曲妮妮 已通过第三轮面试',\n      datetime: '2017-08-08',\n      type: 'notification',\n    },\n  ];\n  return (\n    <NoticeIcon\n      count={10}\n      onItemClick={(item) => {\n        message.info(`${item.title} 被点击了`);\n      }}\n      onClear={(title: string, key: string) => message.info('点击了清空更多')}\n      loading={false}\n      clearText=\"清空\"\n      viewMoreText=\"查看更多\"\n      onViewMore={() => message.info('点击了查看更多')}\n      clearClose\n    >\n      <NoticeIcon.Tab\n        tabKey=\"notification\"\n        count={2}\n        list={list}\n        title=\"通知\"\n        emptyText=\"你已查看所有通知\"\n        showViewMore\n      />\n      <NoticeIcon.Tab\n        tabKey=\"message\"\n        count={2}\n        list={list}\n        title=\"消息\"\n        emptyText=\"您已读完所有消息\"\n        showViewMore\n      />\n      <NoticeIcon.Tab\n        tabKey=\"event\"\n        title=\"待办\"\n        emptyText=\"你已完成所有待办\"\n        count={2}\n        list={list}\n        showViewMore\n      />\n    </NoticeIcon>\n  );\n};"}},"dependencies":{"antd":{"version":"4.9.3","css":"antd/dist/antd.css"},"react":{"version":">=16.9.0"},"react-dom":{"version":">=16.9.0"}},"background":"#f0f2f5","identifier":"test-antd-components-3"},
   },
 };

@@ -1,11 +1,12 @@
 // @ts-nocheck
 import './core/polyfill';
+import '@@/core/devScripts';
 import '../global.tsx';
 import { plugin } from './core/plugin';
 import './core/pluginRegister';
 import { createHistory } from './core/history';
-import { ApplyPluginsType } from '/Users/daxiong/Desktop/localhost/web-vue/vue-admin-antd/node_modules/@umijs/runtime';
-import { renderClient } from '/Users/daxiong/Desktop/localhost/web-vue/vue-admin-antd/node_modules/@umijs/renderer-react/dist/index.js';
+import { ApplyPluginsType } from 'D:/vue/test-antd/node_modules/@umijs/runtime';
+import { renderClient } from 'D:/vue/test-antd/node_modules/@umijs/renderer-react/dist/index.js';
 import { getRoutes } from './core/routes';
 
 

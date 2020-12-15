@@ -4,7 +4,7 @@ import { IRoute } from 'umi';
 import { useModel } from '../core/umiExports';
 import accessFactory from '../../access';
 import AccessContext, { AccessInstance } from './context';
-import { traverseModifyRoutes } from '/Users/daxiong/Desktop/localhost/web-vue/vue-admin-antd/node_modules/@umijs/plugin-access/lib/utils/runtimeUtil';
+import { traverseModifyRoutes } from 'D:/vue/test-antd/node_modules/@umijs/plugin-access/lib/utils/runtimeUtil';
 
 type Routes = IRoute[];
 

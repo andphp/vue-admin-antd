@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { createBrowserHistory } from '/Users/daxiong/Desktop/localhost/web-vue/vue-admin-antd/node_modules/@umijs/runtime';
+import { createBrowserHistory } from 'D:/vue/test-antd/node_modules/@umijs/runtime';
 
 let options = {
   "basename": "/"
