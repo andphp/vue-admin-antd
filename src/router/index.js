@@ -1,5 +1,6 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import Home from "../views/Home.vue";
+import LoginLayout from "@/components/Layouts/LoginLayout";
 
 const routes = [
   {
@@ -15,6 +16,20 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue")
+  },
+  {
+    path: "/login",
+    component: LoginLayout,
+    name: "LoginLayout",
+    redirect: { name: "login" },
+    children: [
+      {
+        path: "/account/login",
+        name: "login",
+        component: () => import("../views/account/Login.vue"),
+        hidden: true
+      }
+    ]
   }
 ];
 
